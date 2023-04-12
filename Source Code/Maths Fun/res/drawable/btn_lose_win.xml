@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+   xmlns:android="http://schemas.android.com/apk/res/android"
+  >
+
+    <item android:state_pressed="true" >
+        <shape>
+            <gradient
+               android:endColor="@color/DarkBlueButtonStartColor"
+               android:startColor="@color/DarkBlueButtonEndColor"
+               android:angle="270" />
+              
+            <corners
+               android:radius="@dimen/button_redious" />
+            <padding
+               android:left="0dp"
+               android:top="@dimen/button_margin"
+               android:right="0dp"
+               android:bottom="@dimen/button_margin" />
+        </shape>
+    </item>
+
+    <item android:state_focused="true" >
+        <shape>
+            <gradient
+               android:startColor="@color/DarkBlueButtonStartColor"
+               android:endColor="@color/DarkBlueButtonEndColor"
+               android:angle="270" />
+              <corners
+               android:radius="@dimen/button_redious" />
+            <padding
+               android:left="0dp"
+               android:top="@dimen/button_margin"
+               android:right="0dp"
+               android:bottom="@dimen/button_margin" />
+        </shape>
+    </item>
+
+  <item android:state_enabled="false">
+          <shape>
+            <gradient
+               android:startColor="@color/DarkBlueButtonDisabledStartColor"
+               android:endColor="@color/DarkBlueButtonDisabledEndColor"
+               android:angle="270" />
+             <corners
+               android:radius="@dimen/button_redious" />
+            <padding
+               android:left="0dp"
+               android:top="@dimen/button_margin"
+               android:right="0dp"
+               android:bottom="@dimen/button_margin" />
+        </shape>
+  </item>
+
+    <item>        
+        <shape>
+            <gradient
+               android:startColor="@color/DarkBlueButtonStartColor"
+               android:endColor="@color/DarkBlueButtonEndColor"
+               android:angle="270" />
+              <corners
+               android:radius="@dimen/button_redious" />
+            <padding
+               android:left="0dp"
+               android:top="@dimen/button_margin"
+               android:right="0dp"
+               android:bottom="@dimen/button_margin" />
+        </shape>
+    </item>
+</selector>

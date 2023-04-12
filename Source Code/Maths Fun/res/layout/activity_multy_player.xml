@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_1" >
+
+    <LinearLayout
+        android:id="@+id/ads_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/button_light_keshri"
+    android:layout_marginLeft="@dimen/mail_layout_top_Left_right_bottom_margin"
+    android:layout_marginRight="@dimen/mail_layout_top_Left_right_bottom_margin"
+    android:layout_marginTop="@dimen/mail_layout_top_Left_right_bottom_margin"
+    android:layout_marginBottom="@dimen/mail_layout_top_Left_right_bottom_margin">
+	
+    <LinearLayout
+        android:id="@+id/layout_top_true_false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/clock_layout_top"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/skip_button_up_size" >
+
+        <Button
+            android:id="@+id/btnFalseTop"
+            android:layout_width="@dimen/true_false_button_size_multi_player"
+            android:layout_height="@dimen/true_false_button_size_multi_player"
+             android:onClick="btnClick"
+            android:background="@drawable/btn_false_multiplayer" />
+
+        <Button
+            android:id="@+id/btnTrueTop"
+            android:layout_width="@dimen/true_false_button_size_multi_player"
+            android:layout_height="@dimen/true_false_button_size_multi_player"
+            android:layout_marginLeft="@dimen/true_false_top_margin_left_multipler"
+             android:onClick="btnClick"
+            android:background="@drawable/btn_true_multiplyer" />
+
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+            android:id="@+id/layout_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/question_left_right_margin"
+            android:layout_marginRight="@dimen/question_left_right_margin"
+            android:background="@drawable/button_light_border_dark_keshri"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            >
+
+        <View
+            android:id="@+id/line"
+    		android:layout_width="fill_parent"
+    		android:layout_height="12dp"
+    		android:layout_below="@+id/upsideTxtQuestionTop"
+    		android:layout_marginTop="@dimen/activity_vertical_margin"
+    		android:layout_marginBottom="@dimen/activity_vertical_margin"
+    		android:background="@drawable/muoltiplayer_seperator"
+    		/>
+        
+        <TextView
+            android:id="@+id/txtQuestionBottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:paddingBottom="@dimen/activity_vertical_margin"
+        	android:paddingLeft="@dimen/activity_horizontal_margin"
+        	android:paddingRight="@dimen/activity_horizontal_margin"
+        	android:paddingTop="@dimen/activity_vertical_margin"
+            android:text=""
+            style="@style/style_question"
+            android:layout_below="@+id/line"
+           />
+
+        <com.arkay.funwithmaths.UpsideDownText
+            android:id="@+id/upsideTxtQuestionTop"
+            style="@style/style_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:text="" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/layout_top_true_false"
+        android:layout_below="@+id/clock_layout_bottom"
+        android:layout_marginTop="@dimen/skip_button_up_size"
+        >
+
+        <Button
+            android:id="@+id/btnTrueBottom"
+            android:layout_width="@dimen/true_false_button_size_multi_player"
+            android:layout_height="@dimen/true_false_button_size_multi_player"
+            android:background="@drawable/btn_true"
+            android:onClick="btnClick" />
+
+        <Button
+            android:id="@+id/btnFalseBottom"
+            android:layout_width="@dimen/true_false_button_size_multi_player"
+            android:layout_height="@dimen/true_false_button_size_multi_player"
+            android:layout_marginLeft="@dimen/true_false_top_margin_left_multipler"
+            android:background="@drawable/btn_false"
+            android:onClick="btnClick" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/clock_layout_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/layout_question"
+        android:layout_below="@+id/layout_question" >
+
+        <TextView
+            android:id="@+id/txtTrue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="0"
+            android:textColor="@color/Green"
+            android:textSize="@dimen/timer_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtTrue1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text=":"
+            android:textColor="@color/White"
+            android:textSize="@dimen/timer_text_size"
+            android:textStyle="bold" />
+        
+        <TextView
+            android:id="@+id/txtTotalQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/Red"
+            android:textSize="@dimen/timer_text_size"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/clock_layout_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/layout_question"
+        android:layout_alignRight="@+id/layout_question" >
+
+        <com.arkay.funwithmaths.UpsideDownText
+            android:id="@+id/UpSideDownTxtTotalQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="0"
+            android:textColor="@color/Red"
+            android:textSize="@dimen/timer_text_size"
+            android:textStyle="bold" />
+         
+
+                <TextView
+            android:id="@+id/txtTrue2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text=":"
+            android:textColor="@color/White"
+            android:textSize="@dimen/timer_text_size"
+            android:textStyle="bold" />
+        
+                
+        <com.arkay.funwithmaths.UpsideDownText
+            android:id="@+id/upSideDowntxtTrue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/UpSideDownTxtTotalQuestion"
+            android:layout_alignBottom="@+id/UpSideDownTxtTotalQuestion"
+            android:layout_toRightOf="@+id/UpSideDownTxtTotalQuestion"
+            android:text="0"
+            android:textColor="@color/Green"
+            android:textSize="@dimen/timer_text_size"
+            android:textStyle="bold" />
+        
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSmailBottom"
+        android:layout_width="@dimen/smile_button_size_multi_player"
+        android:layout_height="@dimen/smile_button_size_multi_player"
+        android:layout_alignLeft="@+id/btnSmailTop"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/smile_bottom" />
+
+    <Button
+        android:id="@+id/btnSmailTop"
+        android:layout_width="@dimen/smile_button_size_multi_player"
+        android:layout_height="@dimen/smile_button_size_multi_player"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/sad_top" />
+
+    
+      <TextView
+        android:id="@+id/txtReadyUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="3"
+         style="@style/style_animation_for_ready_user"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+</RelativeLayout>
+   
+    
+</LinearLayout>

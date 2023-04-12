@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout 
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:layout_marginTop="50dp"
+    android:layout_marginBottom="50dp"
+       android:background="@drawable/background_1"
+       xmlns:android="http://schemas.android.com/apk/res/android">
+       <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout 
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+                  <!-- Content here -->
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="How To Play"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/top_heading"
+                    android:textColor="@color/White"
+                    android:layout_marginTop="@dimen/setting_left_right_margin"
+                    android:layout_marginRight="@dimen/setting_left_right_margin"
+        			android:layout_marginLeft="@dimen/setting_left_right_margin"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                   <TextView
+			        android:id="@+id/txtBottomScoreBoard"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textColor="@color/White"
+			        android:text="1. Single Player: You have ask 10 maths simple problem then you have to solve this problem to 20 seconds. after completed curtain level then difficult problem comes and time also incress. if your give one wrong answer then game over."
+			        android:textSize="@dimen/top_sub_heading"
+			        android:layout_marginTop="20dp"
+			        android:layout_marginRight="@dimen/setting_left_right_margin"
+        			android:layout_marginLeft="@dimen/setting_left_right_margin"
+			        android:textStyle="bold" />
+                   
+                    <TextView
+			        android:id="@+id/txtBottomScoreBoard1"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textColor="@color/White"
+			        android:text="2. Player 1 Vs. Player 2: In this option your can play with your friends or relative as multiplayer on single mobile."
+			        android:textSize="@dimen/top_sub_heading"
+			        android:layout_marginTop="20dp"
+			        android:layout_marginRight="@dimen/setting_left_right_margin"
+        			android:layout_marginLeft="@dimen/setting_left_right_margin"
+			        android:textStyle="bold" />
+                    
+                     <TextView
+			        android:id="@+id/txtBottomScoreBoard3"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textColor="@color/White"
+			        android:text="3. Online Battle: Real time multiplayer option on this option you can invite you Google Plus Friends to play game also you can choose Quick Game on this app choose automatic match player for you. then you can play with him as online.
+			Online play you and opposite play ask random 10 question who give quick answered they get point.  if anyone give wrong answer then -1 point will deduct from him.
+			"
+			        android:textSize="@dimen/top_sub_heading"
+			        android:layout_marginTop="20dp"
+			         android:layout_marginRight="@dimen/setting_left_right_margin"
+			        android:layout_marginLeft="@dimen/setting_left_right_margin"
+			        android:textStyle="bold" />
+            </LinearLayout>
+      </ScrollView>
+ </LinearLayout>

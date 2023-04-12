@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Google Play game services IDs.
+Save this file as res/values/games-ids.xml in your project.
+-->
+<resources>
+
+  <string name="app_id">423961323926</string>
+  <string name="achievement_beginner">CgkIltPBsKsMEAIQAg</string>
+  <string name="achievement_started">CgkIltPBsKsMEAIQAw</string>
+  <string name="achievement_right_track">CgkIltPBsKsMEAIQBA</string>
+  <string name="achievement_good_in_maths_on_fast_calculation">CgkIltPBsKsMEAIQBQ</string>
+  <string name="achievement_master_in_maths_on_fast_calculation">CgkIltPBsKsMEAIQBg</string>
+  <string name="achievement_expert_in_maths_on_fast_calculation">CgkIltPBsKsMEAIQBw</string>
+  <string name="achievement_good_luck">CgkIltPBsKsMEAIQCA</string>
+  <string name="achievement_fifty">CgkIltPBsKsMEAIQCQ</string>
+  <string name="achievement_hundred">CgkIltPBsKsMEAIQCg</string>
+  <string name="achievement_thousand">CgkIltPBsKsMEAIQCw</string>
+  <string name="achievement_no_higher">CgkIltPBsKsMEAIQDA</string>
+  <string name="achievement_curious">CgkIltPBsKsMEAIQDQ</string>
+  <string name="achievement_very_curious">CgkIltPBsKsMEAIQDg</string>
+  <string name="achievement_perfectionist">CgkIltPBsKsMEAIQDw</string>
+  <string name="achievement_quick_solver">CgkIltPBsKsMEAIQEA</string>
+  <string name="achievement_fast_on_maths">CgkIltPBsKsMEAIQEQ</string>
+  <string name="achievement_good_in_maths">CgkIltPBsKsMEAIQEg</string>
+  <string name="achievement_cool_in_maths">CgkIltPBsKsMEAIQEw</string>
+  <string name="achievement_very_good_in_mahs">CgkIltPBsKsMEAIQFA</string>
+  <string name="achievement_fentastic_in_mahts">CgkIltPBsKsMEAIQFQ</string>
+  <string name="achievement_phenomenal_in_maths">CgkIltPBsKsMEAIQFg</string>
+  <string name="achievement_perfect_on_maths">CgkIltPBsKsMEAIQFw</string>
+  <string name="achievement_arkay_maths_master_award">CgkIltPBsKsMEAIQGA</string>
+  <string name="achievement_narrow_escape">CgkIltPBsKsMEAIQGQ</string>
+  <string name="leaderboard_fun_with_maths">CgkIltPBsKsMEAIQAQ</string>
+
+</resources>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_1" >
+
+
+<RelativeLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="@dimen/menu_button_layout_width"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+        
+    <Button
+        android:id="@+id/btnSinglePlayer"
+        style="@style/style_btn_menu_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_dark_blue"
+        android:text="Play" />
+    
+    <Button
+        android:id="@+id/btnMultiplayer"
+        style="@style/style_btn_menu_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_dark_blue"
+        android:layout_below="@+id/btnSinglePlayer"
+        android:layout_marginTop="@dimen/menu_button_top_margin"
+        android:text="Player1 Vs. Player2" />
+    
+        <Button
+            android:id="@+id/btnLeaderBoard"
+            style="@style/style_btn_menu_button"
+            android:layout_width="@dimen/next_prev_button_width_height"
+            android:layout_height="@dimen/next_prev_button_width_height"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/btnMultiplayer"
+            android:layout_marginTop="@dimen/menu_button_top_margin"
+            android:background="@drawable/btn_leaderboard" />
+
+        <Button
+            android:id="@+id/btnAchivement"
+            style="@style/style_btn_menu_button"
+            android:layout_width="@dimen/next_prev_button_width_height"
+            android:layout_height="@dimen/next_prev_button_width_height"
+            android:layout_alignBaseline="@+id/btnLeaderBoard"
+            android:layout_alignBottom="@+id/btnLeaderBoard"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@+id/btnLeaderBoard"
+            android:background="@drawable/btn_achivement" />
+        
+        <Button
+            android:id="@+id/btnHelp"
+            style="@style/style_btn_menu_button"
+            android:layout_width="@dimen/next_prev_button_width_height"
+            android:layout_height="@dimen/next_prev_button_width_height"
+            android:layout_alignBaseline="@+id/btnAchivement"
+            android:layout_alignBottom="@+id/btnAchivement"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@+id/btnAchivement"
+            android:background="@drawable/btn_help" />
+        
+        <Button
+            android:id="@+id/btnSetting"
+            style="@style/style_btn_menu_button"
+            android:layout_width="@dimen/next_prev_button_width_height"
+            android:layout_height="@dimen/next_prev_button_width_height"
+            android:layout_alignBaseline="@+id/btnHelp"
+            android:layout_alignBottom="@+id/btnHelp"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@+id/btnHelp"
+           android:background="@drawable/btn_settings" />
+         
+  </RelativeLayout>
+         
+  <LinearLayout
+        android:id="@+id/ads_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical" >
+    </LinearLayout>
+           
+     <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </FrameLayout>
+
+     <LinearLayout
+        android:id="@+id/sign_in_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#f0f0f0"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="0dp" >
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/sign_in_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </com.google.android.gms.common.SignInButton>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="@string/sign_in_why"
+            android:textColor="#808080" />
+    </LinearLayout> 
+
+    <LinearLayout
+        android:id="@+id/sign_out_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#f0f0f0"
+        android:gravity="center|right"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="@string/you_are_signed_in"
+            android:textColor="#808080" />
+
+        <Button
+            android:id="@+id/sign_out_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_out"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+   
+    
+</RelativeLayout>

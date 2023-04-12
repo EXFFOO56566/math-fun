@@ -1,0 +1,156 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_1"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/setting_left_right_margin"
+        android:layout_marginLeft="@dimen/setting_left_right_margin"
+        android:background="@drawable/button_light_keshri" >
+
+        <RelativeLayout
+            android:id="@+id/layout_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="@dimen/setting_first_row_top_margin" >
+
+            <ToggleButton
+                android:id="@+id/togBackgorundMusic"
+                android:layout_width="@dimen/setting_toggle_button_width"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:text="ToggleButton"
+                android:textOn="ON"
+                android:textOff="OFF"
+                
+                 />
+
+            <TextView
+                android:id="@+id/lblMusic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="Music"
+                style="@style/style_lbl_setting"/>
+            
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_score"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="@dimen/setting_left_top_margin" >
+
+            <ToggleButton
+                android:id="@+id/toggleSoundEffect"
+                android:layout_width="@dimen/setting_toggle_button_width"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:textOn="ON"
+                android:textOff="OFF"
+                android:text="ToggleButton" />
+
+            <TextView
+                android:id="@+id/lblsound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="Sound"
+                
+                style="@style/style_lbl_setting" />
+
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:id="@+id/layout_other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_username"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="@dimen/setting_left_top_margin" >
+
+           
+            <ToggleButton
+                android:id="@+id/toggleVibration"
+                android:layout_width="@dimen/setting_toggle_button_width"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:textOn="ON"
+                android:textOff="OFF"
+                android:text="ToggleButton" />
+
+            <TextView
+                android:id="@+id/lblVibrant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="Vibration"
+                style="@style/style_lbl_setting" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/lblSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Sound"
+            style="@style/style_txt_title" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/layout_other"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="@dimen/setting_left_top_margin"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <Button
+                android:id="@+id/btnShareMe"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/button_dark_blue"
+                android:text="Share Me"
+                style="@style/style_btn_setting_button" />
+
+            <Button
+                android:id="@+id/btnRateMe"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="0.5"
+                android:background="@drawable/button_dark_blue"
+                android:text="Rate Me"
+                style="@style/style_btn_setting_button" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

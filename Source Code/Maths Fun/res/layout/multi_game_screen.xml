@@ -1,0 +1,141 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_1" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/txtPlayerOneName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="10dp"
+            android:text="Player2:  5"
+            style="@style/style_level" />
+
+        <TextView
+            android:id="@+id/txtPlayerOneTotaScore"
+            style="@style/style_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtPlayerOneName"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/txtPlayerOneName"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="5" />
+        
+        <TextView
+            android:id="@+id/txtPlayerTwoName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="10dp"
+            android:text="Your:"
+            style="@style/style_level" />
+
+        <TextView
+            android:id="@+id/txtPlayerTwoTotaScore"
+            style="@style/style_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:layout_alignRight="@+id/txtPlayerTwoName"
+            android:layout_below="@+id/txtPlayerTwoName"
+            android:text="8" />
+       
+    </RelativeLayout>
+
+      <!-- <LinearLayout style="@style/ScoresBox">
+            <TextView android:id="@+id/score0" style="@style/ScoreText" />
+            <TextView android:id="@+id/score1" style="@style/ScoreText" />
+            <TextView android:id="@+id/score2" style="@style/ScoreText" />
+            <TextView android:id="@+id/score3" style="@style/ScoreText" />
+        </LinearLayout> -->
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/mail_layout_top_Left_right_bottom_margin"
+    android:layout_marginLeft="@dimen/mail_layout_top_Left_right_bottom_margin"
+    android:layout_marginRight="@dimen/mail_layout_top_Left_right_bottom_margin"
+    android:layout_marginTop="@dimen/mail_layout_top_Left_right_bottom_margin"
+    android:background="@drawable/button_light_keshri" >
+
+    <RelativeLayout
+        android:id="@+id/layout_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtquestionNo"
+        android:layout_marginLeft="@dimen/question_left_right_margin"
+        android:layout_marginRight="@dimen/question_left_right_margin"
+        android:layout_marginTop="@dimen/menu_button_top_margin"
+        android:background="@drawable/button_light_border_dark_keshri"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtQuestion"
+            style="@style/style_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:text="" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txtquestionNo"
+        style="@style/style_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/layout_question"
+        android:text="Q. No: 1"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/txtReadyUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="3"
+        style="@style/style_animation_for_ready_user"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtReadyUser"
+        android:layout_centerHorizontal="true" >
+
+        <Button
+            android:id="@+id/btnTrue"
+            android:layout_width="@dimen/true_false_button_size"
+            android:layout_height="@dimen/true_false_button_size"
+            android:background="@drawable/btn_true"
+            android:onClick="btnClick" />
+
+        <Button
+            android:id="@+id/btnFalse"
+            android:layout_width="@dimen/true_false_button_size"
+            android:layout_height="@dimen/true_false_button_size"
+            android:layout_marginLeft="@dimen/true_false_top_margin"
+            android:background="@drawable/btn_false"
+            android:onClick="btnClick" />
+    </LinearLayout>
+    
+</RelativeLayout>
+    
+</LinearLayout>

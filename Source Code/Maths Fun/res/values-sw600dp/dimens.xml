@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <dimen name="activity_horizontal_margin">15dp</dimen>
+    <dimen name="activity_vertical_margin">15dp</dimen>
+    
+<dimen name="mail_layout_top_Left_right_bottom_margin">30dp</dimen>
+    
+        <dimen name="play_button_size">300dp</dimen>
+          <dimen name="menu_button_layout_width">480dp</dimen>
+          <dimen name="menu_button_top_margin">40dp</dimen>
+          <dimen name="button_border">4dp</dimen>
+          
+          <dimen name="button_redious">30dp</dimen>
+          <dimen name="button_margin">20dp</dimen>
+          
+             <dimen name="question_left_right_margin">20dp</dimen>
+             
+             <dimen name="timer_text_size">60sp</dimen>
+             <dimen name="top_layout_height">100dp</dimen>
+             <dimen name="top_header_height">120dp</dimen>
+                 <dimen name="star_margin">4dp</dimen>
+                 
+                 <integer name="rating_bar_scale">1</integer>
+                 
+                 <dimen name="true_false_button_size">200dp</dimen>
+                 <dimen name="true_false_button_size_multi_player">130dp</dimen>
+                 
+                 <dimen name="skip_button_width">180dp</dimen>
+        <dimen name="skip_button_height">60dp</dimen>
+         <dimen name="skip_button_up_size">-30dp</dimen> 
+         
+         
+         <dimen name="true_false_top_margin">60dp</dimen>
+         
+         <dimen name="display_ans_top_margin">40dp</dimen>
+         
+         <dimen name="smile_button_size_multi_player">200dp</dimen>
+         <dimen name="true_false_top_margin_left_multipler">60dp</dimen>
+         <dimen name="setting_left_right_margin">20dp</dimen>
+         <dimen name="setting_first_row_top_margin">45dp</dimen>
+         <dimen name="setting_toggle_button_width">150dp</dimen>
+         <dimen name="setting_left_top_margin">25dp</dimen>
+         
+         <dimen name="close_dialog_size">380dp</dimen>
+                   <!-- Dialog  -->
+     <dimen name="top_heading">30sp</dimen>
+     <dimen name="top_sub_heading">28sp</dimen>
+     <dimen name="top_sub_margin">40sp</dimen>
+     <dimen name="dialog_button_width">500dp</dimen>
+     <dimen name="dialog_button_height">90dp</dimen>
+     <dimen name="dialog_button_text_size">40sp</dimen>
+     
+     <dimen name="out_of_text_size">20sp</dimen>
+     <dimen name="level_top_margin">40sp</dimen>
+     
+     <dimen name="next_prev_button_width_height">100dp</dimen>
+      <dimen name="true_false_bottom_margin">70dp</dimen>
+</resources>
+

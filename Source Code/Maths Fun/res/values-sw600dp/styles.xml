@@ -1,0 +1,118 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="style_btn_menu_button">
+        <item name="android:textColor">@color/White</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+        <style name="style_level">
+        <item name="android:textColor">@color/question_answare_Color</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+     <style name="style__multiplay_score">
+        <item name="android:textColor">@color/question_answare_Color</item>
+        <item name="android:textSize">80sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="style_question">
+        <item name="android:textColor">@color/question_answare_Color</item>
+        <item name="android:textSize">80sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+     <style name="style_show_answare_text">
+        <item name="android:textColor">@color/question_answare_Color</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="style_skip_question">
+        <item name="android:textColor">@color/White</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+       <style name="answareWrongeStyle">
+    <item name="android:paddingLeft">4px</item>
+    <item name="android:paddingBottom">4px</item>
+   <item name="android:textColor">@color/Red</item>
+    <item name="android:textSize">80sp</item>
+    <item name="android:shadowColor">#ffffff</item>
+    
+    <item name="android:shadowDx">6</item>
+    <item name="android:shadowDy">6</item>
+    <item name="android:shadowRadius">1</item>
+  </style>
+     <style name="answareRightStyle">
+    <item name="android:paddingLeft">4px</item>
+    <item name="android:paddingBottom">4px</item>
+    <item name="android:textColor">@color/Green</item>
+    <item name="android:textSize">80sp</item>
+    <item name="android:shadowColor">@color/Gray</item>
+    
+    <item name="android:shadowDx">6</item>
+    <item name="android:shadowDy">6</item>
+    <item name="android:shadowRadius">1</item>
+  </style>
+  
+      <style name="answareRightStyleSmall">
+    <item name="android:paddingLeft">4px</item>
+    <item name="android:paddingBottom">4px</item>
+    <item name="android:textColor">@color/Green</item>
+    <item name="android:textSize">40sp</item>
+    <item name="android:shadowColor">@color/White</item>
+    <item name="android:shadowDx">1</item>
+    <item name="android:shadowDy">1</item>
+    <item name="android:shadowRadius">1</item>
+  </style>
+  
+      <style name="style_tap_to_continue">
+        <item name="android:textColor">@color/DarkBlue</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+        <style name="style_lbl_setting">
+        <item name="android:textColor">@color/White</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="style_btn_setting_button">
+        <item name="android:textColor">@color/White</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+     <style name="style_txt_title">
+        <item name="android:textColor">@color/White</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+     <style name="style_animation_for_ready_user">
+        <item name="android:textColor">@color/question_answare_Color</item>
+        <item name="android:textSize">200sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+</resources>

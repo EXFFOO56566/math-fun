@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="app_name">Maths Fun</string>
+
+     <!-- Replace you Admob Unit - id here -->
+    <string name="admob_intersititial">ca-app-pub-1891613648627380/4640536958</string> 
+    <string name="admob_banner">ca-app-pub-1891613648627380/4103983356</string>
+    
+    <!-- This will true if you testing app when you publish on play store make if fasle -->
+     <bool name="istestmode">false</bool>
+    
+    <string name="music">Music</string>
+    <string name="sound_effect">Sound Effect</string>
+    <string name="vibration">Vibration</string>
+    <string name="setting">Settings</string>
+    <string name="share_me">Share Me</string>
+    <string name="rate_me">Rate Me</string>
+    <string name="level">Level </string>
+    <string name="finished">Finished..</string>
+    
+     <string name="sign_in_why">Sign in with Google to share your scores and achievements with your friends.</string>
+    <string name="achievement">Achievement</string>
+ 	<string name="you_are_signed_in">You are signed in with Google.</string>
+ 	<!-- <string name="sign_out">Sign out</string> -->
+ 	
+ 	<string name="achievements_not_available">Please sign in to view achievements.</string>
+    <string name="leaderboards_not_available">Please sign in to view leaderboards.</string>
+    
+    <!-- Tem String -->
+    <string name="signing_in">Signing in with Google</string>
+    <string name="signing_out">Signing out</string>
+    <string name="game_blurb">A sample game that tests your ability to click a button. Can you click faster than your friends? Only one way to find out! To play this game with friends, you must sign in with Google.</string>
+    <string name="single_player">Single Player</string>
+   <!--  <string name="single_player_explanation">Get some practice!</string> -->
+<!--     <string name="quick_game">Quick game</string>
+    <string name="invite_players">Invite friends</string>
+    <string name="see_invitations">See invitations</string> -->
+    <!-- <string name="quick_game_explanation">Challenge a random opponent.</string> -->
+   <!--  <string name="invite_players_explanation">Invite friends to play a game.</string> -->
+    <!-- <string name="see_invitations_explanation">See who is inviting you right now.</string> -->
+    <string name="inv_popup_text">Incoming invitation!</string>
+    <string name="accept_popup_invite">Accept!</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="instructions">Click the button as fast as you can!</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="your_score">Your score:</string>
+    <string name="error">Error</string>
+    <string name="game_problem">An error occurred while starting the game. Please try again.</string>
+    <string name="click_me">Click me!</string>
+    <string name="is_inviting_you">is challenging you to a game!</string>
+    <!-- End Temp String -->
+</resources>
